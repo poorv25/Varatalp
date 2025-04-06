@@ -1,0 +1,21 @@
+{
+  "name": "vartalap",
+  "version": "1.0.0",
+  "description": "Realtime Chat app woth rooms",
+  "license": "ISC",
+  "author": "Poorv Waghmare",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "moment": "^2.30.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
