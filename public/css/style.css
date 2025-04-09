@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Space+Grotesk:wght@300;500;600&display=swap');
 
 :root {
-  --primary-color: #4e54c8;
-  --secondary-color: #8f94fb;
-  --background-color: #f4f7fe;
-  --card-bg: #ffffffcc;
-  --text-color: #333;
-  --accent-color: #00c9a7;
-  --danger-color: #ff6b6b;
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --primary-color: #2c2f8a;
+  --secondary-color: #4a4e96;
+  --background-color: #1e1e2f;
+  --card-bg: #2a2a3d;
+  --text-color: #e0e0e0;
+  --accent-color: #008f7a;
+  --danger-color: #ff4c4c;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', 'Space Grotesk', sans-serif;
   background: var(--background-color);
   font-size: 16px;
   line-height: 1.6;
@@ -44,7 +44,7 @@ a {
 }
 
 .btn:hover {
-  background: #00b49b;
+  background: #007a68;
 }
 
 /* Chat Container */
@@ -94,7 +94,7 @@ a {
 
 .chat-sidebar ul li {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* Messages */
@@ -102,13 +102,13 @@ a {
   padding: 25px;
   height: 500px;
   overflow-y: auto;
-  background: #f9faff;
+  background: #2e2e40;
 }
 
 .chat-messages .message {
   margin-bottom: 20px;
   padding: 15px;
-  background: #fff;
+  background: #3a3a4d;
   border-radius: 10px;
   box-shadow: var(--shadow);
 }
@@ -122,7 +122,7 @@ a {
 
 .chat-messages .message .meta span {
   font-weight: 300;
-  color: #777;
+  color: #999;
   margin-left: 5px;
 }
 
@@ -132,7 +132,7 @@ a {
 
 /* Chat Form */
 .chat-form-container {
-  background: #ffffff;
+  background: #2a2a3d;
   padding: 20px 30px;
   border-top: 1px solid #ddd;
 }
@@ -146,7 +146,9 @@ a {
   flex: 1;
   padding: 10px 15px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  background: #3a3a4d;
+  color: var(--text-color);
+  border: 1px solid #555;
   border-radius: 6px;
 }
 
@@ -171,7 +173,7 @@ a {
 
 .join-main {
   padding: 30px 20px;
-  background: #ffffff;
+  background: #2a2a3d;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -191,7 +193,9 @@ a {
   width: 100%;
   padding: 10px;
   font-size: 15px;
-  border: 1px solid #ccc;
+  background: #3a3a4d;
+  color: var(--text-color);
+  border: 1px solid #555;
   border-radius: 6px;
 }
 
